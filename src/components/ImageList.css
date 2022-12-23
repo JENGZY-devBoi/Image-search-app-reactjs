@@ -1,0 +1,18 @@
+.image-list {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 200px);
+    gap: 20px;
+}
+
+img {
+    align-self: stretch;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(104, 104, 104, 0.7);
+    cursor: pointer;
+    transition: 0.3s all;
+}
